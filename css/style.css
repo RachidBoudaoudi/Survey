@@ -1,0 +1,49 @@
+body, html {
+    height: 100%;
+  }
+  
+   body{
+    background-image: url("image.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .styleInput{
+      margin: 10px;
+      width: 100%;
+  }
+  
+  form{
+     margin: auto; 
+     width:50%;
+     background-color: blueviolet;
+     padding: 30px;
+     margin-bottom: 12px;
+     box-sizing: 5px;
+    }
+  h1{
+      width:500px;
+      margin: auto;
+      margin-bottom:24px ;
+    }
+  p{
+    width:600px;
+    margin: auto;  
+  }
+  header{
+     width: 50%; 
+     margin: auto;
+     margin-bottom: 24px;
+
+  }
+
+  p{
+      font-size: 23px;
+  }
+  #submit{
+      height: 12;
+      padding: 6px;
+      background-color: chartreuse;
+      border-radius: 7px;
+  }

@@ -8,26 +8,27 @@
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+     <header>
       <h1 id="title">Free CodeCamp Survey From </h1>
       <p id="description">Thank you for taking the time to help us improve the platform</p>  
-      
+    </header> 
       <form id="survey-form">
         <label for="#name" id="name-label" >Name</label>
         <br>
-        <input type="text" id="name"  placeholder="Enter your Name" required>
+        <input type="text" id="name" class="styleInput" placeholder="Enter your Name" required>
         <br>
         <label for="#email" id="email-label">Email</label>
         <br>
-        <input type="text" id="email" pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/"placeholder="Enter your Email" required>
+        <input type="text" id="email" class="styleInput" pattern="/^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" placeholder="Enter your Email" required>
         <br>
         <label for="#number" id="number-label">Age(optional)</label>
         <br>
-        <input type="number" id="number" pattern="[0-9]" min ="10" max="100" step="1" placeholder="Age">
+        <input type="number" id="number" class="styleInput" pattern="[0-9]" min ="10" max="100" step="1" placeholder="Age">
         <br>
         
         <label for="#dropdown">Which option best describes your current role? </label>
         <br>
-        <select id="dropdown"  name="current role">
+        <select id="dropdown"  name="current role" class="styleInput">
            
            <option value="Student">Student</option>
            <option value="full time job">Full time job</option>
@@ -48,7 +49,7 @@
 
         <label for="#dropdown2">What is your favorite feature of freeCodeCamp?</label>
         <br>
-        <select id="dropdown2" name="features">
+        <select id="dropdown2" name="features" class="styleInput" >
          
           <option value="Challanges">Challanges</option>
           <option value="Projects">Projects</option>
@@ -60,7 +61,7 @@
         <br>
         <input type="checkbox" id="checkbox1" name="Improvisiations" value="Front-end project">Front-end project</input>
         <br>
-        <input type="checkbox" id="checkbox2" name="Improvisiations" value="Backhacnd project">Backhand project</input>
+        <input type="checkbox" id="checkbox2" name="Improvisiations" value="Back-end project">Back-end project</input>
         <br>
         <input type="checkbox" id="checkbox3" name="Improvisiations" value="Data visualtisation">Data visualtisation</input>
         <br>
@@ -68,7 +69,7 @@
         <br>
         <input type="checkbox" id="checkbox5" name="Improvisiations" value="Open source community">Open source community</input>
         <br>
-        <input type="checkbox" id="checkbox6" name="Improvisiations"value="Gether help romms">Gether help romms</input>
+        <input type="checkbox" id="checkbox6" name="Improvisiations"value="Gitter help rooms">Gitter help romms</input>
         <br>
         <input type="checkbox" id="checkbox7" name="Improvisiations" value="Videos">Videos</input>
         <br>
@@ -82,9 +83,9 @@
         <br>
         <label for="#textarea">Any comments or suggestions?</label>
         <br>
-        <textarea id="textarea" name="comments" rows="10" cols="50">Enter your comment here</textarea>
+        <textarea id="textarea" name="comments" rows="10" cols="50" class="styleInput">Enter your comment here</textarea>
         <br>
-        <input type="submit" id="submit"></input>
+        <input type="submit" id="submit" class="styleInput"></input>
       
       </form>
 
